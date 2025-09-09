@@ -23,7 +23,7 @@ h2 {
     margin-bottom: 10px;
 }
 
-#fase1 {
+#fase1, #fase2 {
     scroll-margin-top: 80px;
 }
 
@@ -31,6 +31,7 @@ h2 {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 20px;
+    align-items: stretch;
 }
 
 @media (max-width: 400px) {
@@ -50,12 +51,34 @@ h2 {
     text-decoration: none;
 }
 
+#card-container .card {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
 a .card:hover {
     transform: scale(1.02);
     transition: transform 0.3s;
 }
 
+.card-img-top {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+}
+
 .card-body h6 {
     text-align: left;
     margin-bottom: 0;
+}
+
+.card-body p {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 4;
+    line-clamp: 4;
+    box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }

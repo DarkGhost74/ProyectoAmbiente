@@ -1,6 +1,9 @@
-#imagcap5{
-    margin-left: 200px;
-    margin-right: auto;
+#imagcap5 {
+    display: block;
+    margin: 20px auto;
     width: 60%;
-    height: 30%;
+}
+
+#btn-container {
+    margin-bottom: 30px;
 }
