@@ -1,0 +1,40 @@
+.card-master {
+    padding: 15px;
+    border-radius: 10px;
+}
+
+h1 {
+    font-size: 5rem;
+}
+
+h6 {
+    margin-bottom: 20px;
+}
+
+h1, h2, h6 {
+    text-align: center;
+}
+
+h2 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+#fase1 {
+    scroll-margin-top: 80px;
+}
+
+#card-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+#card-container a {
+    text-decoration: none;
+}
+
+.card-body h6 {
+    text-align: left;
+    margin-bottom: 0;
+}

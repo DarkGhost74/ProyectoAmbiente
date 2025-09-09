@@ -1,0 +1,24 @@
+nav, .card {
+    background-color: white;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+body {
+    background-color: #ededed;
+}
+
+#main-container {
+    display: grid;
+    grid-template-rows: 1fr auto;
+    min-height: 100dvh;
+}
+
+main {
+    margin-top: 80px;
+}
+
+footer {
+    height: 15dvh;
+    margin-top: 20px;
+    background-color: #1F2937;
+}
