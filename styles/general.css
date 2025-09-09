@@ -21,4 +21,18 @@ footer {
     height: 15dvh;
     margin-top: 20px;
     background-color: #1F2937;
+    color: white;
+    display: grid;
+    place-items: center;
+}
+
+#footer-container {
+    display: grid;
+    place-items: center;
+    grid-template-columns: auto 1fr;
+}
+
+footer img {
+    height: 50px;
+    margin-right: 10px;
 }
