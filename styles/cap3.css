@@ -2,3 +2,19 @@
     width: 100%;
     margin: 20px 0;
 }
+
+#img2 {
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#arbol {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    margin-bottom: 15px;
+}
+
+#img3 {
+    width: 20dvw;
+}

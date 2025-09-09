@@ -2,3 +2,20 @@
     width: 100%;
     margin: 20px 0;
 }
+
+#img2 {
+    width: 60%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+}
+
+#fisico, #biologicos {
+    display: grid;
+    grid-template-columns: 1fr auto;
+}
+
+#img3, #img4 {
+    width: 20dvw;
+}
