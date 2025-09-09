@@ -1,21 +1,4 @@
-@media (min-width: 1400px) {
-    .container {
-        width: 70dvw;
-    }
-}
-
-p, main li {
-    font-size: 1.2rem;
-}
-
 #img1 {
     width: 100%;
     margin: 20px 0;
-}
-
-#btn-container {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    gap: 10px;
 }
