@@ -1,6 +1,7 @@
 .card-master {
     padding: 15px;
     border-radius: 10px;
+    margin-bottom: 20px;
 }
 
 h1 {
@@ -11,7 +12,9 @@ h6 {
     margin-bottom: 20px;
 }
 
-h1, h2, h6 {
+h1,
+h2,
+h6 {
     text-align: center;
 }
 
@@ -30,8 +33,26 @@ h2 {
     gap: 20px;
 }
 
+@media (max-width: 400px) {
+    #card-container {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (min-width: 1024px) {
+    #card-container {
+        grid-template-columns: repeat(auto-fit, 300px);
+        justify-content: center;
+    }
+}
+
 #card-container a {
     text-decoration: none;
+}
+
+a .card:hover {
+    transform: scale(1.02);
+    transition: transform 0.3s;
 }
 
 .card-body h6 {
