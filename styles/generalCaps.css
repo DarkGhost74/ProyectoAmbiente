@@ -8,6 +8,17 @@ p, main li {
     font-size: 1.2rem;
 }
 
+.principios {
+    text-align: center;
+    background-color: #77ACA2;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.principios p, .principios em, .principios strong {
+    font-size: 1.5rem;
+}
+
 #btn-container {
     width: 100%;
     display: flex;
