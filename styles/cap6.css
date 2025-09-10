@@ -7,3 +7,14 @@
     width: 70px;
     height: 70px;
 }
+
+.cartas{
+    display: flex;
+    padding: 25px;
+    margin: 25px;
+
+}
+
+.card{
+    margin: 25px;
+}

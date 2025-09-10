@@ -17,3 +17,17 @@
 #img2 {
     width: 30dvw;
 }
+
+.indicadores {
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#img3 {
+    width: 30dvw;
+}
+
+.inditext{
+    padding-right: 50px;
+}
