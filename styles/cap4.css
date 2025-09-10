@@ -2,3 +2,15 @@
     width: 100%;
     margin: 20px 0;
 }
+
+#agenda {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    margin-bottom: 15px;
+}
+
+#img2 {
+    width: 20dvw;
+    margin-top: 10px;
+    margin-left: 15px;
+}

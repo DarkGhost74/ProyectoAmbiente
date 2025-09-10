@@ -7,3 +7,13 @@
 #btn-container {
     margin-bottom: 30px;
 }
+
+#objetivos {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    margin-bottom: 15px;
+}
+
+#img2 {
+    width: 30dvw;
+}
