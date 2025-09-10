@@ -14,7 +14,7 @@
     margin-bottom: 15px;
 }
 
-#flujo {
+#flujo, #energia {
     display: grid;
     grid-template-columns: 1fr auto;
 }
@@ -22,4 +22,32 @@
 #img3 {
     width: 20dvw;
     margin-right: 10px;
+}
+
+#img4 {
+    width: 20dvw;
+    margin-right: 10px;
+}
+
+.formula {
+    text-align: center;
+}
+
+.formula em {
+    font-size: 1.5rem;
+}
+
+#gaseosos, #sedimentarios, #hidrologico {
+    display: grid;
+    grid-template-columns: auto 1fr;
+}
+
+#img5, #img6, #img7 {
+    width: 20dvw;
+    margin-right: 10px;
+}
+
+#img8 {
+    width: 100%;
+    margin-bottom: 20px;
 }

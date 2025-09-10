@@ -21,13 +21,26 @@
     margin-right: 15px;
 }
 
-#arbol {
+#arbol, #ecologico {
     display: grid;
     grid-template-columns: 1fr auto;
     margin-bottom: 15px;
 }
 
-#img3 {
+#img3, #img5 {
     width: 20dvw;
     margin-top: 10px;
+    margin-left: 10px;
+}
+
+#productos {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    margin-bottom: 15px;
+}
+
+#img6 {
+    width: 20dvw;
+    margin-top: 10px;
+    margin-right: 15px;
 }
